@@ -4,10 +4,10 @@
 .portefolioSection {
   @include m.flex(column, center, center);
   margin: v.$font-size-xxxxxl 0;
-  gap: v.$font-size-xxxl;
+  gap: v.$font-size-xxxxxl;
 
   &__subtitle {
-    width: 40vw;
+    width: 50vw;
     text-align: center;
   }
   &__grid {
@@ -21,7 +21,7 @@
       border-radius: v.$border-radius-rounded;
       // border: 1px solid black;
       text-align: center;
-      img {
+      > img {
         width: 300px;
         height: 200px;
         object-fit: cover;
@@ -55,11 +55,12 @@
           @include m.flex(row, flex-start, flex-start);
           padding-top: v.$font-size-m;
           gap: v.$font-size-m;
+          img,
           svg {
-            height: 30px;
+            height: 20px;
           }
         }
-        img {
+        > img {
           display: none;
         }
       }

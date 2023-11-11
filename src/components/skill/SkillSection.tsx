@@ -8,9 +8,8 @@ export default function SkillSection() {
     <section className="skillSection" id="skills">
       <h3>Compétences</h3>
       <p className="skillSection__subtitle">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sapiente
-        unde dolorem saepe architecto inventore sit dolor voluptatem, molestias
-        nihil vitae qui quis, hic quidem eius suscipit eos autem illo!
+        Des compétences acquises lors de mes formations (bootcamp, alternance)
+        et lors du développement de side projects.
       </p>
       <div className="skillSection__grid">
         {skills.map((skill: ISkill, index: number) => (

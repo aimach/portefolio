@@ -8,8 +8,8 @@ export default function PortefolioSection() {
     <section className="portefolioSection" id="portefolio">
       <h3>Projets</h3>
       <p className="portefolioSection__subtitle">
-        Ci-dessous, quelques exemples de réalisations effectuées durant ma
-        formation ainsi que des side-projects :
+        Des réalisations effectuées durant ma formation ainsi que des projets
+        personnels
       </p>
       <div className="portefolioSection__grid">
         {projects.map((project: IProject, index: number) => (

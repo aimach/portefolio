@@ -4,9 +4,10 @@
 .aboutSection {
   @include m.flex(column, space-between, center);
   margin: v.$font-size-xxxxxl 0;
+  gap: v.$font-size-xxxxxl;
 
   &__content {
-    width: 70vw;
+    width: 60vw;
     @include m.flex(row, space-between, center);
     gap: v.$font-size-xxxxxl;
   }
@@ -15,5 +16,7 @@
   }
   &__paragraphe {
     text-align: justify;
+    font-size: v.$font-size-m;
+    line-height: v.$font-size-xl;
   }
 }

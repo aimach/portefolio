@@ -19,11 +19,16 @@ export default function PortefolioCard({ project }: Props) {
           <h5>{project.title}</h5>
           <p>{project.description}</p>
           <ul className="portefolioSection__gridCardList">
-            {project.techno.map((techno: IconDefinition, index: number) => (
-              <li key={index}>
-                <FontAwesomeIcon icon={techno} />
-              </li>
-            ))}
+            {project.techno.map((tech: IconDefinition, index: number) => {
+              console.log(tech);
+              const image =
+                typeof tech === "string" ? (
+                  <img src={tech} alt="techno" />
+                ) : (
+                  <FontAwesomeIcon icon={tech} />
+                );
+              return <li key={index}>{image}</li>;
+            })}
           </ul>
         </div>
       </div>

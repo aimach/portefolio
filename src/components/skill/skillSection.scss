@@ -4,9 +4,9 @@
 .skillSection {
   @include m.flex(column, center, center);
   margin: v.$font-size-xxxxxl 0;
-  gap: v.$font-size-xxxl;
+  gap: v.$font-size-xxxxxl;
   &__subtitle {
-    width: 40vw;
+    width: 50vw;
     text-align: center;
   }
   &__grid {

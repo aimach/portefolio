@@ -35,7 +35,7 @@ export const skills: ISkill[] = [
     name: "Database",
     list: [
       { name: "postgreSQL", image: postgresql },
-      { name: "Prsima", image: prisma },
+      { name: "Prisma", image: prisma },
     ],
   },
   {
