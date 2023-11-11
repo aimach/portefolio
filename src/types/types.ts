@@ -2,7 +2,7 @@ import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 
 export interface ISkill {
   name: string;
-  list: string[];
+  list: { name: string; image: string | IconDefinition }[];
 }
 
 export interface IProject {
