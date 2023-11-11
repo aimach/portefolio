@@ -5,7 +5,7 @@ import PortefolioCard from "./PortefolioCard";
 
 export default function PortefolioSection() {
   return (
-    <section className="portefolioSection">
+    <section className="portefolioSection" id="portefolio">
       <h3>Projets</h3>
       <p className="portefolioSection__subtitle">
         Ci-dessous, quelques exemples de réalisations effectuées durant ma

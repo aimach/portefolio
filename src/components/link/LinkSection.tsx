@@ -5,7 +5,7 @@ import codewarsIcon from "../../assets/icons/codewars.png";
 
 export default function LinkSection() {
   return (
-    <section className="linkSection">
+    <section className="linkSection" id="links">
       <h3>Retrouvez-moi</h3>
       <div className="linkSection__container">
         <a href="https://www.linkedin.com/in/mariehschneider/" target="_blank">

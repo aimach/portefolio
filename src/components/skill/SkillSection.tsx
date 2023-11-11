@@ -5,7 +5,7 @@ import { ISkill } from "../../types/types";
 
 export default function SkillSection() {
   return (
-    <section className="skillSection">
+    <section className="skillSection" id="skills">
       <h3>Compétences</h3>
       <p className="skillSection__subtitle">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sapiente

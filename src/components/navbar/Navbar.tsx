@@ -15,11 +15,21 @@ export default function Navbar({ scrollTop }: Props) {
       </div>
       <nav className="navbar__menu">
         <ul>
-          <li>Accueil</li>
-          <li>Profil</li>
-          <li>Compétences</li>
-          <li>Portefolio</li>
-          <li>Liens</li>
+          <li>
+            <a href="#home">Accueil</a>
+          </li>
+          <li>
+            <a href="#profil">Profil</a>
+          </li>
+          <li>
+            <a href="#skills">Compétences</a>
+          </li>
+          <li>
+            <a href="#portefolio">Portefolio</a>
+          </li>
+          <li>
+            <a href="#links">Liens</a>
+          </li>
         </ul>
       </nav>
     </header>

@@ -3,7 +3,7 @@ import avatar from "../../assets/img/avatar.png";
 
 export default function AboutSection() {
   return (
-    <section className="aboutSection">
+    <section className="aboutSection" id="profil">
       <h3>A propos</h3>
       <div className="aboutSection__content">
         <img src={avatar} alt="avatar" className="aboutSection__avatar" />
