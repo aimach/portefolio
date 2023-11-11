@@ -1,2 +1,48 @@
 @use "../../styles/variable" as v;
 @use "../../styles/mixin" as m;
+
+.skillSection {
+  @include m.flex(column, center, center);
+  margin: v.$font-size-xxxxxl 0;
+  gap: v.$font-size-xxxl;
+  &__subtitle {
+    width: 40vw;
+    text-align: center;
+  }
+  &__grid {
+    @include m.flex(row, center, center);
+    flex-wrap: wrap;
+    gap: v.$font-size-xxxl;
+    width: 100%;
+    &Card {
+      min-width: 200px;
+      min-height: 200px;
+      padding: v.$font-size-m;
+      border-radius: v.$border-radius-rounded;
+      box-shadow: 0px 4px 11px 0px v.$color-lavender;
+      h5 {
+        background-color: v.$color-lavender;
+        color: v.$color-lavender-dark;
+        font-weight: v.$font-weight-extrabold;
+        width: fit-content;
+        padding: 0.2rem 0.5rem;
+        border-radius: v.$border-radius-base;
+      }
+      &List {
+        @include m.flex(column, flex-start, flex-start);
+        padding-top: v.$font-size-m;
+        gap: v.$font-size-m;
+        li {
+          @include m.flex(row, flex-start, flex-start);
+          gap: v.$font-size-s;
+        }
+        svg {
+          color: white;
+          background-color: #1fcac5;
+          padding: 0.1rem;
+          border-radius: v.$border-radius-circle;
+        }
+      }
+    }
+  }
+}
