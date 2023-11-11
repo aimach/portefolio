@@ -133,7 +133,13 @@ table {
 }
 h2 {
   font-size: v.$font-size-xxxxxl;
+  text-transform: uppercase;
 }
 h3 {
+  text-transform: uppercase;
   font-size: v.$font-size-xxxl;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
