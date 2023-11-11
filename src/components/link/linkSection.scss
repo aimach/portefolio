@@ -1,2 +1,16 @@
 @use "../../styles/variable" as v;
 @use "../../styles/mixin" as m;
+
+.linkSection {
+  @include m.flex(column, center, center);
+  margin: v.$font-size-xxxxxl 0;
+  gap: v.$font-size-xxxl;
+  img,
+  svg {
+    height: 40px;
+  }
+  &__container {
+    @include m.flex(row, center, center);
+    gap: v.$font-size-xxxl;
+  }
+}

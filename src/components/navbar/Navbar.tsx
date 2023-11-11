@@ -1,9 +1,15 @@
 import "./navbar.scss";
 import avatar from "../../assets/img/avatar.png";
 
-export default function Navbar() {
+interface Props {
+  scrollTop: number;
+}
+
+export default function Navbar({ scrollTop }: Props) {
+  let classname = "navbar";
+  scrollTop > 50 ? (classname += " navbar--backgroundColor") : classname;
   return (
-    <header className="navbar">
+    <header className={classname}>
       <div>
         <img src={avatar} alt="avatar" className="navbar__avatar" />
       </div>
