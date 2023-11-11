@@ -1,2 +1,19 @@
 @use "../../styles/variable" as v;
 @use "../../styles/mixin" as m;
+
+.aboutSection {
+  @include m.flex(column, space-between, center);
+  margin: v.$font-size-xxxxxl 0;
+
+  &__content {
+    width: 70vw;
+    @include m.flex(row, space-between, center);
+    gap: v.$font-size-xxxxxl;
+  }
+  &__avatar {
+    width: 300px;
+  }
+  &__paragraphe {
+    text-align: justify;
+  }
+}
