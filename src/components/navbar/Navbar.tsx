@@ -3,11 +3,11 @@ import avatar from "../../assets/img/avatar.png";
 
 export default function Navbar() {
   return (
-    <header>
+    <header className="navbar">
       <div>
-        <img src={avatar} alt="avatar" />
+        <img src={avatar} alt="avatar" className="navbar__avatar" />
       </div>
-      <nav>
+      <nav className="navbar__menu">
         <ul>
           <li>Accueil</li>
           <li>Profil</li>

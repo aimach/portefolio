@@ -1,2 +1,18 @@
 @use "../../styles/variable" as v;
 @use "../../styles/mixin" as m;
+
+.navbar {
+  @include m.flex(row, space-between, center);
+  margin: v.$font-size-m v.$font-size-xxxxxl;
+  &__avatar {
+    border-radius: v.$border-radius-circle;
+    width: 100px;
+  }
+  &__menu {
+    ul {
+      @include m.flex(row, space-between, center);
+      gap: 1rem;
+      font-size: v.$font-size-l;
+    }
+  }
+}
