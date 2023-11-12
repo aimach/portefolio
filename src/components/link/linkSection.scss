@@ -12,5 +12,9 @@
   &__container {
     @include m.flex(row, center, center);
     gap: v.$font-size-xxxl;
+    &Row {
+      @include m.flex(row, center, center);
+      gap: v.$font-size-xs;
+    }
   }
 }

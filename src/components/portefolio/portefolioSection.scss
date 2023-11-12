@@ -19,8 +19,10 @@
       width: 300px;
       min-height: 200px;
       border-radius: v.$border-radius-rounded;
-      // border: 1px solid black;
       text-align: center;
+      background-color: v.$color-neutral-100;
+      transition: background-color 0.5s;
+
       > img {
         width: 300px;
         height: 200px;
@@ -32,16 +34,16 @@
         display: none;
       }
       &:hover {
+        background-color: #2a9d8f;
         .portefolioSection__gridCardDescription {
           @include m.flex(column, space-evenly, center);
           height: 200px;
           padding: 1rem;
-          background-color: v.$color-lavender-dark;
+          // border: 2px solid v.$neutral-color;
           border-radius: v.$border-radius-rounded;
-          color: white;
+          color: v.$color-neutral-100;
           h5 {
-            background-color: v.$color-lavender;
-            color: v.$color-lavender-dark;
+            background-color: v.$dark-color;
             font-weight: v.$font-weight-extrabold;
             width: fit-content;
             padding: 0.2rem 0.5rem;
@@ -58,6 +60,7 @@
           img,
           svg {
             height: 20px;
+            color: black;
           }
         }
         > img {

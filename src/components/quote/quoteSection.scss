@@ -1,2 +1,27 @@
 @use "../../styles/variable" as v;
 @use "../../styles/mixin" as m;
+@import "react-slideshow-image/dist/styles.css";
+
+.quoteSection {
+  margin: v.$font-size-xxxxxl 0;
+  background-color: v.$neutral-color;
+  height: 30vh;
+  color: v.$color-neutral-100;
+  h3 {
+    color: v.$color-neutral-100;
+    text-align: center;
+    padding: v.$font-size-xxl 0;
+  }
+  &__slideContainer {
+    width: 40vw;
+    margin: auto;
+  }
+  &__subtitle {
+    width: 40vw;
+    text-align: center;
+  }
+}
+
+.each-slide-effect > div {
+  @include m.flex(column, center, center);
+}

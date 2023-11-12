@@ -20,7 +20,6 @@ export default function PortefolioCard({ project }: Props) {
           <p>{project.description}</p>
           <ul className="portefolioSection__gridCardList">
             {project.techno.map((tech: IconDefinition, index: number) => {
-              console.log(tech);
               const image =
                 typeof tech === "string" ? (
                   <img src={tech} alt="techno" />

@@ -19,19 +19,20 @@
       height: 250px;
       padding: v.$font-size-m;
       border-radius: v.$border-radius-rounded;
-      box-shadow: 0px 4px 11px 0px v.$color-lavender;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       h5 {
-        background-color: v.$color-lavender;
-        color: v.$color-lavender-dark;
+        background-color: v.$color-blue-light;
+        color: v.$color-neutral-100;
         font-weight: v.$font-weight-extrabold;
         width: fit-content;
         padding: 0.2rem 0.5rem;
         border-radius: v.$border-radius-base;
       }
       &List {
-        @include m.flex(column, flex-start, flex-start);
+        @include m.flex(column, center, flex-start);
         padding-top: v.$font-size-l;
         gap: v.$font-size-m;
+        height: 80%;
         li {
           @include m.flex(row, flex-start, flex-start);
           gap: v.$font-size-s;

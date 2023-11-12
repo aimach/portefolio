@@ -8,7 +8,7 @@
   @include m.flex(row, space-between, center);
   transition: background-color 0.5s ease;
   &--backgroundColor {
-    background-color: v.$color-lavender;
+    background-color: v.$dark-color;
   }
   &__avatar {
     border-radius: v.$border-radius-circle;
@@ -19,6 +19,9 @@
       @include m.flex(row, space-between, center);
       gap: 1rem;
       font-size: v.$font-size-l;
+      a {
+        color: v.$color-neutral-100;
+      }
     }
   }
 }
