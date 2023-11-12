@@ -4,6 +4,7 @@ import HeroSection from "./components/hero/HeroSection";
 import LinkSection from "./components/link/LinkSection";
 import Navbar from "./components/navbar/Navbar";
 import PortefolioSection from "./components/portefolio/PortefolioSection";
+import QuoteSection from "./components/quote/QuoteSection";
 import SkillSection from "./components/skill/SkillSection";
 import { useState, useEffect } from "react";
 
@@ -28,6 +29,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <SkillSection />
+      <QuoteSection />
       <PortefolioSection />
       <LinkSection />
     </div>
