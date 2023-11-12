@@ -14,9 +14,20 @@
   &__avatar {
     width: 300px;
   }
-  &__paragraphe {
+  & p {
     text-align: justify;
     font-size: v.$font-size-m;
     line-height: v.$font-size-xl;
+    span {
+      color: v.$neutral-color;
+    }
+    svg {
+      color: v.$color-neutral-100;
+      background-color: v.$color-blue-light;
+      padding: 0.2rem;
+      margin-right: 0.5rem;
+      border-radius: v.$border-radius-circle;
+      height: 0.6rem;
+    }
   }
 }
