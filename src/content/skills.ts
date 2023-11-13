@@ -9,6 +9,7 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import express from "../assets/icons/express.svg";
+import mysql from "../assets/icons/mysql.svg";
 import postgresql from "../assets/icons/postgresql.svg";
 import prisma from "../assets/icons/prisma.svg";
 import scrum from "../assets/icons/scrum.png";
@@ -34,6 +35,7 @@ export const skills: ISkill[] = [
   {
     name: "Database",
     list: [
+      { name: "MySQL", image: mysql },
       { name: "postgreSQL", image: postgresql },
       { name: "Prisma", image: prisma },
     ],
