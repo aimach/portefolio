@@ -34,7 +34,7 @@
         gap: v.$font-size-m;
         height: 80%;
         li {
-          @include m.flex(row, flex-start, flex-start);
+          @include m.flex(row, flex-start, center);
           gap: v.$font-size-s;
         }
         svg,

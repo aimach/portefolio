@@ -28,8 +28,8 @@ function App() {
       <Navbar scrollTop={scrollTop} />
       <HeroSection />
       <AboutSection />
+      {/* <QuoteSection /> */}
       <SkillSection />
-      <QuoteSection />
       <PortefolioSection />
       <LinkSection />
     </div>

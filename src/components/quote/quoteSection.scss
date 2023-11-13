@@ -4,14 +4,12 @@
 
 .quoteSection {
   @include m.flex(column, space-evenly, center);
-  background-color: v.$neutral-color;
   margin: v.$font-size-xxxxxl 0;
   height: 40vh;
   color: v.$color-neutral-100;
-  h3 {
-    color: v.$color-neutral-100;
-  }
+
   &__container {
+    background-color: v.$neutral-color;
     @include m.flex(row, space-evenly, center);
     height: 30vh;
   }
