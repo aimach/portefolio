@@ -5,6 +5,7 @@ import {
   faMugHot,
   faCompactDisc,
   faGraduationCap,
+  faBook,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function QuoteSection() {
@@ -14,10 +15,10 @@ export default function QuoteSection() {
       <div className="quoteSection__container">
         <div className="quoteSection__card">
           <FontAwesomeIcon icon={faGraduationCap} />
+          <p className="quoteSection__subtitle">Prisma</p>
           <p className="quoteSection__subtitle">
             En cours d'apprentissage ou approfondissement
           </p>
-          <p className="quoteSection__subtitle">Prisma</p>
         </div>
         <div className="quoteSection__card">
           <FontAwesomeIcon icon={faQuoteLeft} />
@@ -26,6 +27,11 @@ export default function QuoteSection() {
             improbable, doit être la vérité".
           </p>
           <p>Arthur Conan Doyle</p>
+        </div>
+        <div className="quoteSection__card">
+          <FontAwesomeIcon icon={faBook} />
+          <p className="quoteSection__subtitle">Le cycle de Fondation</p>
+          <p className="quoteSection__subtitle">Isaac Asimov</p>
         </div>
         <div className="quoteSection__card">
           <FontAwesomeIcon icon={faMugHot} />
