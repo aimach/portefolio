@@ -15,6 +15,7 @@ import prisma from "../assets/icons/prisma.svg";
 import scrum from "../assets/icons/scrum.png";
 import typescript from "../assets/icons/typescript.svg";
 import cicd from "../assets/icons/cicd.png";
+import graphql from "../assets/icons/graphql.svg";
 
 export const skills: ISkill[] = [
   {
@@ -30,6 +31,7 @@ export const skills: ISkill[] = [
     list: [
       { name: "NodeJS", image: faNodeJs },
       { name: "Express", image: express },
+      { name: "GraphQL", image: graphql },
     ],
   },
   {
