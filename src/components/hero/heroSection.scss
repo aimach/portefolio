@@ -7,4 +7,7 @@
   background-size: cover;
   height: 100vh;
   @include m.flex(column, center, center);
+  h3 {
+    margin-left: 2rem;
+  }
 }

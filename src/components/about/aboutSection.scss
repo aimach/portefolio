@@ -5,10 +5,10 @@
   @include m.flex(column, space-between, center);
   margin: v.$font-size-xxxxxl 0;
   gap: v.$font-size-xxxxxl;
-
   &__content {
     width: 80vw;
     @include m.flex(row, space-between, center);
+    flex-wrap: wrap;
     gap: v.$font-size-xxxxxl;
   }
   &__avatar {
@@ -32,5 +32,11 @@
       border-radius: v.$border-radius-circle;
       height: 0.6rem;
     }
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .aboutSection__content {
+    justify-content: center;
   }
 }
