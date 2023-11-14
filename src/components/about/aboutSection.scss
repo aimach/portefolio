@@ -13,6 +13,7 @@
   }
   &__avatar {
     width: 300px;
+    filter: drop-shadow(-50px 0 v.$neutral-color);
   }
   & p {
     text-align: justify;

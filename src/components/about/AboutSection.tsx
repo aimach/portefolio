@@ -28,9 +28,9 @@ export default function AboutSection() {
             <a href="https://www.wildcodeschool.com/" target="_blank">
               <span>Wild Code School</span>
             </a>{" "}
-            en septembre 2022 au cours duquel j'ai découvert le développement
-            web avec <span>Javascript</span> et <span>React</span>. Cette
-            formation a été l'occasion pour moi de développer{" "}
+            en septembre 2022 au cours duquel j'approfondis le développement web
+            avec <span>Javascript</span> et <span>React</span>. Cette formation
+            a été l'occasion pour moi de développer{" "}
             <a href="#portefolio">
               <span>3 projets</span>
             </a>{" "}
