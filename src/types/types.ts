@@ -9,6 +9,6 @@ export interface IProject {
   link: string;
   title: string;
   description: string;
-  techno: IconDefinition[];
+  techno: (string | IconDefinition)[];
   image: string;
 }

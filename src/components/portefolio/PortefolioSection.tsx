@@ -4,6 +4,7 @@ import { IProject } from "../../types/types";
 import PortefolioCard from "./PortefolioCard";
 
 export default function PortefolioSection() {
+  console.log(projects);
   return (
     <section className="portefolioSection" id="portefolio">
       <h3>Projets</h3>

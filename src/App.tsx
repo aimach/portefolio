@@ -4,7 +4,6 @@ import HeroSection from "./components/hero/HeroSection";
 import LinkSection from "./components/link/LinkSection";
 import Navbar from "./components/navbar/Navbar";
 import PortefolioSection from "./components/portefolio/PortefolioSection";
-import QuoteSection from "./components/quote/QuoteSection";
 import SkillSection from "./components/skill/SkillSection";
 import { useState, useEffect } from "react";
 
@@ -12,7 +11,7 @@ function App() {
   const [scrollTop, setScrollTop] = useState<number>(0);
 
   useEffect(() => {
-    const handleScroll = (event) => {
+    const handleScroll = () => {
       setScrollTop(window.scrollY);
     };
 
@@ -28,7 +27,6 @@ function App() {
       <Navbar scrollTop={scrollTop} />
       <HeroSection />
       <AboutSection />
-      {/* <QuoteSection /> */}
       <SkillSection />
       <PortefolioSection />
       <LinkSection />
