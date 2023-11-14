@@ -4,6 +4,7 @@
 */
 
 @use "./styles/variable" as v;
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
 
 html,
 body,
@@ -115,6 +116,7 @@ body {
 ol,
 ul {
   list-style: none;
+  font-family: "Orbitron";
 }
 blockquote,
 q {
@@ -136,11 +138,13 @@ h2 {
   text-transform: uppercase;
   color: v.$color-neutral-100;
   margin: v.$font-size-xxxxl;
+  font-family: "Orbitron";
 }
 h3 {
   text-transform: uppercase;
   font-size: v.$font-size-xxxl;
   color: v.$neutral-color;
+  font-family: "Orbitron";
 }
 a {
   text-decoration: none;
