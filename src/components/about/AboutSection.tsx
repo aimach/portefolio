@@ -50,10 +50,8 @@ export default function AboutSection() {
           </p>
           <p>
             <FontAwesomeIcon icon={faCheck} />
-            Je suis à la recherche d'un poste à partir de <span>
-              mars 2023
-            </span>{" "}
-            !
+            Je suis à la recherche d'un poste de développeuse web à partir de{" "}
+            <span>mars 2023</span> !
           </p>
         </div>
       </div>

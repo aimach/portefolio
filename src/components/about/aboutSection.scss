@@ -8,7 +8,6 @@
   &__content {
     width: 80vw;
     @include m.flex(row, space-between, center);
-    flex-wrap: wrap;
     gap: v.$font-size-xxxxxl;
   }
   &__avatar {
@@ -38,5 +37,6 @@
 @media only screen and (max-width: 470px) {
   .aboutSection__content {
     justify-content: center;
+    flex-wrap: wrap;
   }
 }

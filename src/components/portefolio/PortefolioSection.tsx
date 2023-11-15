@@ -9,7 +9,7 @@ export default function PortefolioSection() {
     <section className="portefolioSection" id="portefolio">
       <h3>Projets</h3>
       <p className="portefolioSection__subtitle">
-        Des réalisations effectuées durant ma formation ainsi que des projets
+        Des applications développées durant ma formation ainsi que des projets
         personnels
       </p>
       <div className="portefolioSection__grid">
