@@ -47,7 +47,7 @@ export const projects = [
     image: deway,
   },
   {
-    link: "https://github.com/aimach/makesense2",
+    link: "https://github.com/aimach/makesense2/tree/dev",
     title: "Makesense",
     description: "Projet à présenter au titre",
     techno: [typescript, faReact, faSass, express, prisma],
